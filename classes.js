@@ -73,10 +73,10 @@ class Manager{
     return this.first_name + " " + this.last_name + " " + "Widget";
   }
   hire(newEmp){
-    reports.push(newEmp);
+    this.reports.push(newEmp);
   }
   fire(i){
-    reports.splice(i,1);
+    this.reports.splice(i,1);
   };
 
 }
